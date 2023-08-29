@@ -22,7 +22,7 @@ class StateRepositoryImpl extends StateRepository {
 
   @override
   Future<State> getState() async {
-    final res = await dio.get('/state');
+    final res = await dio.get('/v1/state');
     if (res.statusCode == HttpStatus.ok) {
       final rawState = res.data as Map<String, dynamic>;
 
