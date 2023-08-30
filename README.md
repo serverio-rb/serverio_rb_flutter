@@ -20,3 +20,7 @@ $ flutter run --dart-define=SEVERIO_HOST=your_host -- dart-define=SEVERIO_PORT=y
 |----------------|---------------------------------------------------|------------------|
 | `SEVERIO_HOST` | IP address of your running `serverio-rb` instance | `192.168.100.48` |
 | `SEVERIO_PORT` | Port of your running `serverio-rb` instance       | `9292`           |
+
+## Contributors
+
+- [@fartem](https://github.com/fartem) as Artem Fomchenkov
